@@ -1,73 +1,9 @@
-Exploratory Data Analysis (EDA) For Coffee Shop Sales.
-Project Overview
+Coffee Shop Sales - Exploratory Data Analysis (EDA)
 
-This project explores sales data from a Coffee Shop to identify trends, patterns, and business insights.
-The analysis involves data cleaning, preprocessing, visualization, and summarization of sales performance across different locations.
+This project presents an Exploratory Data Analysis (EDA) of a Coffee Shop Sales dataset containing six months of transactional data. The dataset includes information such as date, location, product details, quantity sold, and sales amount. Using Python libraries like Pandas, NumPy, and Matplotlib in a Jupyter Notebook environment, the project covers essential steps including data import, inspection, cleaning, and modification to prepare the dataset for meaningful analysis.
 
-Dataset
+The analysis focuses on understanding sales distribution across different store locations, evaluating product performance, and identifying sales trends over time. After handling missing values and restructuring the dataset, several visualizations and statistical insights were generated. The results show that the coffee shop earned a total revenue of $673,839.8 from 214,470 units sold over six months. Among the three store locations, Astoria contributed the highest revenue of $226,830.7, while coffee emerged as the most popular and profitable product, generating $285,600 from 89,250 units sold. On the other hand, packaged chocolate recorded the lowest sales, with only 487 units sold, resulting in $1,217.5 revenue.
 
-Source: Coffee Shop Sales dataset (Excel file)
+A key observation from the trend analysis is that sales have shown a continuous upward growth across the six-month period, reflecting strong business momentum and increasing customer demand. Location-specific insights also confirm that coffee remains the leading product across Astoria, Hell’s Kitchen, and Lower Manhattan, with each location consistently showing coffee as the highest revenue generator.
 
-Size: 6 months of sales data
-
-Features: Date, Location, Product details, Quantity, and Sales Amount
-
-Steps in Analysis
-
-Data Import & Inspection
-
-Loaded dataset using pandas
-
-Checked structure, missing values, and basic statistics
-
-Data Cleaning & Modification
-
-Handled missing values
-
-Adjusted dataset structure for analysis
-
-Exploratory Data Analysis (EDA)
-
-Sales distribution by location
-
-Product-wise performance
-
-Trend analysis over six months
-
-Visualization using Matplotlib
-
-Insights Generation
-
-Total revenue: $673,839.8
-
-Total quantity sold: 214,470
-
-Top Location: Astoria (Revenue: $226,830.7)
-
-Best-Selling Product: Coffee (89,250 units | $285,600 revenue)
-
-Least-Selling Product: Packaged Chocolate (487 units | $1,217.5 revenue)
-
-Growth Trend: Six months of data show a continuous upward movement in sales.
-
-Location-Specific Insights
-
-Astoria: Highest revenue from Coffee ($94,896)
-
-Hell’s Kitchen: Coffee again leads with $96,704 revenue
-
-Lower Manhattan: Coffee contributes $94,000 revenue
-
-Tech Stack
-
-Python (Pandas, NumPy, Matplotlib)
-
-Jupyter Notebook for interactive analysis
-
-Key Learnings
-
-Sales are consistently increasing across six months.
-
-Coffee is the most profitable and in-demand product across all locations.
-
-Certain products like packaged chocolate have minimal contribution and may need marketing efforts.
+Through this analysis, it becomes evident that while the business is experiencing healthy growth, certain low-performing products may require targeted promotional strategies. The project demonstrates practical applications of data analysis, visualization, and storytelling with data, ultimately highlighting how EDA can be leveraged to drive business decisions in the retail sector.
